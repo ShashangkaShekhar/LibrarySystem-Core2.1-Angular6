@@ -1,0 +1,142 @@
+<!-- Start wrapper-->
+<div id="wrapper">
+
+    <!--Start sidebar-wrapper-->
+    <div id="sidebar-wrapper" data-simplebar="" data-simplebar-auto-hide="true">
+        <div class="brand-logo">
+            <a href="JavaScript:Void(0);" [routerLink]="['/backoffice']">
+                <img src="assets/images/logo-icon.png" class="logo-icon" alt="Bangodash">
+                <h5 class="logo-text"> Library System</h5>
+            </a>
+        </div>
+        <ul class="sidebar-menu do-nicescrol">
+            <!--<li class="sidebar-header">NAVIGATION</li>-->
+            <li>
+                <a href="JavaScript:Void(0);" [routerLink]="['/backoffice']" class="waves-effect">
+                    <i class="icon-home"></i> <span>Dashboard</span>
+                </a>
+            </li>
+            <li *ngIf="loggedUsertype === 1" class="sidebar-header">Setting</li>
+            <li *ngIf="loggedUsertype === 1">
+                <a href="javaScript:void();" class="waves-effect">
+                    <i class="icon-folder-alt"></i> <span>System</span>
+                    <i class="fa fa-angle-left float-right"></i>
+                </a>
+                <ul class="sidebar-submenu">
+                    <li><a href="JavaScript:Void(0);" [routerLink]="['/backoffice/system/users']"><i class="fa fa-circle-o"></i> Users</a></li>
+                </ul>
+            </li>
+            <li class="sidebar-header">Main</li>
+            <li>
+                <a href="javaScript:void();" class="waves-effect">
+                    <i class="icon-folder-alt"></i> <span>Book</span>
+                    <i class="fa fa-angle-left float-right"></i>
+                </a>
+                <ul class="sidebar-submenu">
+                    <li><a href="JavaScript:Void(0);" [routerLink]="['/backoffice/book/authors']"><i class="fa fa-circle-o"></i> Authors</a></li>
+                    <li><a href="JavaScript:Void(0);" [routerLink]="['/backoffice/book/categories']"><i class="fa fa-circle-o"></i> Categories</a></li>
+                    <li><a href="JavaScript:Void(0);" [routerLink]="['/backoffice/book/books']"><i class="fa fa-circle-o"></i> Books</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="javaScript:void();" class="waves-effect">
+                    <i class="icon-folder-alt"></i> <span>Circulation</span>
+                    <i class="fa fa-angle-left float-right"></i>
+                </a>
+                <ul class="sidebar-submenu">
+                    <li><a href="JavaScript:Void(0);" [routerLink]="['/backoffice/circulation/issue']"><i class="fa fa-circle-o"></i> Issue Book</a></li>
+                    <li><a href="JavaScript:Void(0);" [routerLink]="['/backoffice/circulation/return']"><i class="fa fa-circle-o"></i> Return Book</a></li>
+                </ul>
+            </li>
+            <li class="sidebar-header">Reporting</li>
+            <li>
+                <a href="javaScript:void();" class="waves-effect">
+                    <i class="icon-folder-alt"></i> <span>Reports</span>
+                    <i class="fa fa-angle-left float-right"></i>
+                </a>
+                <ul class="sidebar-submenu">
+                    <li><a href="JavaScript:Void(0);" [routerLink]="['/backoffice/reports/book']"><i class="fa fa-circle-o"></i> Issue/Return</a></li>
+                </ul>
+            </li>
+        </ul>
+
+    </div>
+    <!--End sidebar-wrapper-->
+    <!--Start topbar header-->
+    <header class="topbar-nav">
+        <nav class="navbar navbar-expand fixed-top bg-white">
+            <ul class="navbar-nav mr-auto align-items-center">
+                <li class="nav-item">
+                    <a class="nav-link toggle-menu" href="javascript:void();">
+                        <i class="icon-menu menu-icon"></i>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <form class="search-bar">
+                        <input type="text" class="form-control" placeholder="Enter keywords">
+                        <a href="javascript:void();"><i class="icon-magnifier"></i></a>
+                    </form>
+                </li>
+            </ul>
+
+            <ul class="navbar-nav align-items-center right-nav-link">
+                <li class="nav-item">
+                    <a class="nav-link dropdown-toggle dropdown-toggle-nocaret" data-toggle="dropdown" href="javaScript:void();">
+                        <span class="user-profile">
+                            <img src="assets/images/avatars/avatar-17.png" class="img-circle" alt="user avatar">
+                        </span>
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-right animated fadeIn">
+                        <li class="dropdown-item user-details">
+                            <a href="javaScript:void();">
+                                <div class="media">
+                                    <div class="avatar">
+                                        <img class="align-self-start mr-3" src="assets/images/avatars/avatar-17.png" alt="user avatar">
+                                    </div>
+                                    <div class="media-body">
+                                        <h6 class="mt-2 user-title">{{loggedUsername}}</h6>
+                                        <p class="user-subtitle">{{loggedemail}}</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="dropdown-divider"></li>
+                        <li class="dropdown-item">
+                            <a href="JavaScript:Void(0);" [routerLink]="['/backoffice/system/users']">
+                                <i class="icon-settings mr-2"></i> Setting
+                            </a>
+                        </li>
+                        <li class="dropdown-divider"></li>
+                        <li class="dropdown-item">
+                            <a href="JavaScript:Void(0);" (click)="logout()">
+                                <i class="icon-power mr-2"></i> Logout
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <!--End topbar header-->
+    <div class="clearfix"></div>
+
+    <div class="content-wrapper">
+        <div class="container-fluid">
+            <router-outlet></router-outlet>
+        </div>
+        <!-- End container-fluid-->
+    </div><!--End content-wrapper-->
+    <!--Start Back To Top Button-->
+    <a href="javaScript:void();" class="back-to-top"><i class="fa fa-angle-double-up"></i> </a>
+    <!--End Back To Top Button-->
+    <!--Start footer-->
+    <footer class="footer">
+        <div class="container">
+            <div class="text-center">
+                Copyright © 2018
+            </div>
+        </div>
+    </footer>
+    <!--End footer-->
+
+</div><!--End wrapper-->

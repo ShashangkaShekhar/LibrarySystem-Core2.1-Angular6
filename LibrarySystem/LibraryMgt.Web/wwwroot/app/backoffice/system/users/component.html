@@ -1,0 +1,130 @@
+<!-- Breadcrumb-->
+<div class="row pt-2 pb-2">
+    <div class="col-sm-6">
+        <h4 class="page-title"><i class="fa fa-cube"></i> System Users</h4>
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="JavaScript:Void(0);" [routerLink]="['/backoffice']">Dashboard</a></li>
+            <li class="breadcrumb-item">System</li>
+            <li class="breadcrumb-item active" aria-current="page">Users</li>
+        </ol>
+    </div>
+    <div class="col-sm-6">
+        <div class="btn-group group-round m-1 float-right">
+            <button type="button" class="btn btn-outline-secondary btn-sm waves-effect waves-light m-1" (click)="addNew()">
+                <i class="fa fa-plus-circle"></i> Add New User
+            </button>
+        </div>
+    </div>
+</div>
+<!-- End Breadcrumb-->
+<div class="row">
+    <div class="col-lg-12">
+        <div class="card">
+            <!--<div class="card-header">
+                <h5 class="float-left"><i class="fa fa-cube"></i> List Users</h5>
+            </div>-->
+            <div class="card-body">
+                <h5 class="card-title"><i class="fa fa-cube"></i> Categories</h5>
+                <div class="table-responsive" style="max-height:480px; overflow:auto;">
+                    <table class="table table-sm">
+                        <thead>
+                            <tr>
+                                <th scope="col">#</th>
+                                <th scope="col">First</th>
+                                <th scope="col">Last</th>
+                                <th scope="col">Email</th>
+                                <th class="text-right">Options</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr *ngFor="let item of users;let sl = index">
+                                <th scope="row">{{sl+1}}</th>
+                                <td>{{item.firstname}}</td>
+                                <td>{{item.lastname}}</td>
+                                <td>{{item.email}}</td>
+                                <td>
+                                    <div class="pull-right">
+                                        <a href="#" title="Edit Record" class="btn btn-outline-secondary btn-sm waves-effect waves-light m-1" (click)="edit($event, item)">
+                                            <i class="fa fa-edit"></i> Edit
+                                        </a>
+                                        <a href="#" title="Delete Record" class="btn btn-outline-secondary btn-sm waves-effect waves-light m-1" (click)="delete($event, item)">
+                                            <i class="fa fa-trash-o"></i> Delete
+                                        </a>
+                                    </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div><!-- End Row-->
+<!-- Modal -->
+<<div class="modal fade" id="defaultsizemodal">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title"><i class="fa fa-plus-circle"></i> Add Category</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form id="userForm" [formGroup]="userForm" #f="ngForm" (ngSubmit)="onSubmit()">
+                    <div class="form-group">
+                        <div class="position-relative has-icon-left">
+                            <label for="firstName" class="sr-only">First Name</label>
+                            <input type="text" id="firstName" name="firstName" formControlName="firstName" class="form-control" placeholder="First Name" required
+                                   onfocus="this.placeholder=''" onblur="this.placeholder='First Name'" autocomplete="off" />
+                            <div class="form-control-position">
+                                <i class="icon-user"></i><em class="text-danger">*</em>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="position-relative has-icon-left">
+                            <label for="lastName" class="sr-only">Last Name</label>
+                            <input type="text" id="lastName" name="lastName" formControlName="lastName" class="form-control" placeholder="Last Name" required
+                                   onfocus="this.placeholder=''" onblur="this.placeholder='Last Name'" autocomplete="off" />
+                            <div class="form-control-position">
+                                <i class="icon-user"></i><em class="text-danger">*</em>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="position-relative has-icon-left">
+                            <label for="email" class="sr-only">Email ID</label>
+                            <input type="text" formControlName="email" class="form-control" placeholder="Email ID" required
+                                   onfocus="this.placeholder=''" onblur="this.placeholder='Email ID'" autocomplete="off" />
+                            <div class="form-control-position">
+                                <i class="icon-envelope-open"></i><em class="text-danger">*</em>
+                            </div>
+                            <span *ngIf="userForm.controls['email'].hasError('pattern')" class="text-danger">
+                                Invalid Email
+                            </span>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="position-relative has-icon-left">
+                            <label for="contact" class="sr-only">Phone</label>
+                            <input type="text" formControlName="contact" class="form-control" placeholder="Phone" required
+                                   onfocus="this.placeholder=''" onblur="this.placeholder='Phone'" autocomplete="off" />
+                            <div class="form-control-position">
+                                <i class="icon-lock"></i><em *ngIf="userForm.controls['contact'].hasError('required')" class="text-danger">*</em>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" (click)="reset()">
+                    <i class="fa fa-refresh"></i> Reset
+                </button>
+                <button type="submit" class="btn btn-primary shadow-primary btn-block waves-effect waves-light" form="userForm" [disabled]="!f.valid">
+                    <i class="fa fa-check-square-o"></i> Save changes
+                </button>
+            </div>
+        </div>
+    </div>
+</div>

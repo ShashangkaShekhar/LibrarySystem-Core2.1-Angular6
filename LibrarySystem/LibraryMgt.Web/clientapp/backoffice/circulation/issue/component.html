@@ -1,0 +1,197 @@
+﻿<!-- Breadcrumb-->
+<div class="row pt-2 pb-2">
+    <div class="col-sm-6">
+        <h4 class="page-title"><i class="fa fa-cube"></i> Book Issue</h4>
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="JavaScript:Void(0);" [routerLink]="['/backoffice']">Dashboard</a></li>
+            <li class="breadcrumb-item">Book</li>
+            <li class="breadcrumb-item active" aria-current="page">Issue</li>
+        </ol>
+    </div>
+    <div class="col-sm-6">
+        <div class="btn-group group-round m-1 float-right">
+            <button type="button" class="btn btn-outline-secondary btn-sm waves-effect waves-light m-1" (click)="issueedList()">
+                <i class="fa fa-database"></i> Issued Book
+            </button>
+        </div>
+    </div>
+</div>
+<!-- End Breadcrumb-->
+<div class="row">
+    <div class="col-lg-7">
+        <div class="card">
+            <div class="card-body">
+                <form id="issueForm" [formGroup]="issueForm" #f="ngForm" (ngSubmit)="onSubmit()" tabindex="-1">
+                    <h4 class="form-header text-uppercase">
+                        <i class="fa fa-check-square-o"></i>
+                        Issue Info
+                    </h4>
+
+                    <div class="alert alert-outline-info alert-dismissible" role="alert">
+                        <!--<button type="button" class="close" data-dismiss="alert">&times;</button>-->
+                        <div class="alert-icon">
+                            <i class="icon-info"></i>
+                        </div>
+                        <div class="alert-message">
+                            <span><strong>Info!</strong> Use <b>"Tab"</b> Key to execute, <b>"Enter"</b> Key to save,<b> "Space"</b> Key to reset! </span>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group col-md-8">
+                            <label for="memberName">Member Search</label>
+                            <div class="position-relative has-icon-left">
+                                <input type="text" id="memberSearch" name="memberSearch" formControlName="memberSearch" (change)="onChange($event, $event.target.value)"
+                                       class="form-control" placeholder="Search Member"
+                                       onfocus="this.placeholder=''" onblur="this.placeholder='Search Member'" autocomplete="off" tabindex="1" maxlength="5" />
+                                <div class="form-control-position">
+                                    <i class="fa fa-search text-info"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group col-md-4">
+                            <label>Due Date</label>
+                            <div class="position-relative has-icon-left">
+                                <input type="text" id="issueDate" name="dueDate" formControlName="dueDate" class="form-control" tabindex="3" />
+                                <div class="form-control-position">
+                                    <i class="fa fa-calendar text-info"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-md-12">
+                            <label for="memberName">Member Name</label>
+                            <input type="text" id="memberName" name="memberName" formControlName="memberName" class="form-control" placeholder="Member Name" readonly />
+                        </div>
+                        <div class="form-group col-md-12">
+                            <label for="memberName">Email</label>
+                            <input type="text" id="email" name="email" formControlName="email" class="form-control" placeholder="Email" readonly />
+                        </div>
+                    </div>
+
+                    <div class="form-footer">
+                        <div class="pull-right">
+                            <button type="button" class="btn btn-secondary m-1" (click)="reset()" tabindex="5">
+                                <i class="fa fa-refresh"></i> Reset
+                            </button>
+                            <button type="submit" class="btn btn-primary m-1" form="issueForm" [disabled]="!f.valid" tabindex="4">
+                                <i class="fa fa-check-square-o"></i> Issue Book
+                            </button>
+                        </div>
+                    </div>
+
+                </form>
+                <div class="clearfix"></div>
+                <div class="alert {{alertmessage}} alert-dismissible m-1" role="alert" *ngIf="resmessage">
+                    <button type="button" class="close" data-dismiss="alert">&times;</button>
+                    <div class="alert-icon">
+                        <i class="icon-info"></i>
+                    </div>
+                    <div class="alert-message">
+                        <span><strong>Info!</strong> {{resmessage}}</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-5">
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title text-uppercase"><i class="fa fa-cube"></i> Books to issue</h5>
+                <input type="text" id="bookSearch" name="bookSearch" [(ngModel)]="searchTerm" (ngModelChange)="onSearch()"
+                       class="form-control" placeholder="Search Book"
+                       onfocus="this.placeholder=''" onblur="this.placeholder='Search Book'" autocomplete="off" tabindex="2" />
+                <br />
+                <div class="table-responsive" style="height:180px; max-height:180px; overflow:auto;">
+
+                    <table class="table table-sm">
+                        <tbody>
+                            <tr *ngFor="let item of booklist;let sl = index">
+                                <td>
+                                    <div class="demo-checkbox">
+                                        <input type="checkbox" id="user-checkbox{{sl+1}}" class="filled-in chk-col-primary"
+                                               (change)="oncheckChange($event, item.id)" />
+                                        <label for="user-checkbox{{sl+1}}">{{item.bookname}}</label>
+                                    </div>
+                                </td>
+
+                            </tr>
+                        </tbody>
+                        <tfoot>
+                            <tr *ngIf="booklist.length === 0">
+                                <td>
+                                    <p style="color:red;">No records found</p>
+                                </td>
+                            </tr>
+                        </tfoot>
+                    </table>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title text-uppercase"><i class="fa fa-cube"></i> Due Books</h5>
+
+                <div class="table-responsive" style="height:105px; max-height:105px; overflow:auto;">
+                    <table class="table table-sm">
+                        <tbody>
+                            <tr *ngFor="let item of bookissueedlist;let sl = index">
+                                <th scope="row">{{sl+1}}</th>
+                                <td>{{item.bookname}}</td>
+                            </tr>
+                        </tbody>
+                        <tfoot>
+                            <tr *ngIf="bookissueedlist.length === 0">
+                                <td>
+                                    <p style="color:red;">No records found</p>
+                                </td>
+                            </tr>
+                        </tfoot>
+                    </table>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div><!--End Row-->
+<!-- Modal -->
+<div class="modal fade" id="largesizemodal">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title"><i class="fa fa-database"></i> Issueed Book</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close" (click)="issueedListclose()">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="table-responsive" style="max-height:480px; overflow:auto;">
+                    <table class="table table-sm">
+                        <thead>
+                            <tr>
+                                <th scope="col">#</th>
+                                <th scope="col">Member Name</th>
+                                <th scope="col">Issued</th>
+                                <th scope="col">Duedate</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr *ngFor="let item of bookissueed;let sl = index">
+                                <th scope="row">{{sl+1}}</th>
+                                <td>{{item.membername}}</td>
+                                <td>{{item.issuedate}}</td>
+                                <td>{{item.duedate}}</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="modal-footer">
+
+            </div>
+        </div>
+    </div>
+</div>

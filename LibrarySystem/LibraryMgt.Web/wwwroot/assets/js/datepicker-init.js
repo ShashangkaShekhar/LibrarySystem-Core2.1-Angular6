@@ -1,0 +1,4 @@
+﻿$('#issueDate').datepicker({
+    todayHighlight: true
+});
+

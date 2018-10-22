@@ -1,0 +1,84 @@
+<!-- Breadcrumb-->
+<div class="row pt-2 pb-2">
+    <div class="col-sm-6">
+        <h4 class="page-title"><i class="fa fa-cube"></i> Book Reports</h4>
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="JavaScript:Void(0);" [routerLink]="['/backoffice']">Dashboard</a></li>
+            <li class="breadcrumb-item">Book</li>
+            <li class="breadcrumb-item active" aria-current="page">Reports</li>
+        </ol>
+    </div>
+    <div class="col-sm-6">
+        <div class="btn-group group-round m-1 float-right">
+
+        </div>
+    </div>
+</div>
+<!-- End Breadcrumb-->
+
+<div class="row">
+    <div class="col-lg-6">
+        <div class="card">
+            <div class="card-header">
+                <i class="fa fa-cube"></i> Book Issued
+                <div class="card-action">
+                    <a href="JavaScript:Void(0);" class="btn btn-outline-secondary btn-sm waves-effect waves-light m-1" [routerLink]="['/backoffice/circulation/issue']">
+                        <i class="fa fa-circle-o"></i> Issue Book
+                    </a>
+                </div>
+            </div>
+            <div class="card-body">
+                <div class="table-responsive" style="height:470px; max-height:480px; overflow:auto;">
+                    <table class="table table-sm">
+                        <thead>
+                            <tr>
+                                <th scope="col">#</th>
+                                <th scope="col">Member Name</th>
+                                <th scope="col">Due Date</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr *ngFor="let item of bookissued;let sl = index">
+                                <th scope="row">{{sl+1}}</th>
+                                <td>{{item.membername}}</td>
+                                <td>{{item.duedate}}</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-6">
+        <div class="card">
+            <div class="card-header">
+                <i class="fa fa-cube"></i> Book Returned
+                <div class="card-action">
+                    <a href="JavaScript:Void(0);" class="btn btn-outline-secondary btn-sm waves-effect waves-light m-1" [routerLink]="['/backoffice/circulation/return']">
+                        <i class="fa fa-circle-o"></i> Return Book
+                    </a>
+                </div>
+            </div>
+            <div class="card-body">
+                <div class="table-responsive" style="height:470px; max-height:480px; overflow:auto;">
+                    <table class="table table-sm">
+                        <thead>
+                            <tr>
+                                <th scope="col">#</th>
+                                <th scope="col">Member Name</th>
+                                <th scope="col">Returned On</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr *ngFor="let item of bookreturned;let sl = index">
+                                <th scope="row">{{sl+1}}</th>
+                                <td>{{item.membername}}</td>
+                                <td>{{item.returndate}}</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div><!--End Row-->

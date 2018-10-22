@@ -1,0 +1,138 @@
+C:\Users\Shashangka\source\repos\LibraryMgt\LibraryMgt.Web\bin\Debug\netcoreapp2.1\LibraryMgt.Web.deps.json
+C:\Users\Shashangka\source\repos\LibraryMgt\LibraryMgt.Web\bin\Debug\netcoreapp2.1\LibraryMgt.Web.runtimeconfig.json
+C:\Users\Shashangka\source\repos\LibraryMgt\LibraryMgt.Web\bin\Debug\netcoreapp2.1\LibraryMgt.Web.runtimeconfig.dev.json
+C:\Users\Shashangka\source\repos\LibraryMgt\LibraryMgt.Web\bin\Debug\netcoreapp2.1\LibraryMgt.Web.dll
+C:\Users\Shashangka\source\repos\LibraryMgt\LibraryMgt.Web\bin\Debug\netcoreapp2.1\LibraryMgt.Web.pdb
+C:\Users\Shashangka\source\repos\LibraryMgt\LibraryMgt.Web\obj\Debug\netcoreapp2.1\LibraryMgt.Web.csproj.CoreCompileInputs.cache
+C:\Users\Shashangka\source\repos\LibraryMgt\LibraryMgt.Web\obj\Debug\netcoreapp2.1\LibraryMgt.Web.RazorAssemblyInfo.cache
+C:\Users\Shashangka\source\repos\LibraryMgt\LibraryMgt.Web\obj\Debug\netcoreapp2.1\LibraryMgt.Web.RazorAssemblyInfo.cs
+C:\Users\Shashangka\source\repos\LibraryMgt\LibraryMgt.Web\obj\Debug\netcoreapp2.1\LibraryMgt.Web.AssemblyInfoInputs.cache
+C:\Users\Shashangka\source\repos\LibraryMgt\LibraryMgt.Web\obj\Debug\netcoreapp2.1\LibraryMgt.Web.AssemblyInfo.cs
+C:\Users\Shashangka\source\repos\LibraryMgt\LibraryMgt.Web\obj\Debug\netcoreapp2.1\LibraryMgt.Web.RazorTargetAssemblyInfo.cache
+C:\Users\Shashangka\source\repos\LibraryMgt\LibraryMgt.Web\obj\Debug\netcoreapp2.1\LibraryMgt.Web.dll
+C:\Users\Shashangka\source\repos\LibraryMgt\LibraryMgt.Web\obj\Debug\netcoreapp2.1\LibraryMgt.Web.pdb
+C:\Users\Shashangka\source\repos\LibraryMgt\LibraryMgt.Web\obj\Debug\netcoreapp2.1\LibraryMgt.Web.csprojAssemblyReference.cache
+D:\Work\Trial\LibraryMgt\LibraryMgt.Web\bin\Debug\netcoreapp2.1\LibraryMgt.Web.deps.json
+D:\Work\Trial\LibraryMgt\LibraryMgt.Web\bin\Debug\netcoreapp2.1\LibraryMgt.Web.runtimeconfig.json
+D:\Work\Trial\LibraryMgt\LibraryMgt.Web\bin\Debug\netcoreapp2.1\LibraryMgt.Web.runtimeconfig.dev.json
+D:\Work\Trial\LibraryMgt\LibraryMgt.Web\bin\Debug\netcoreapp2.1\LibraryMgt.Web.dll
+D:\Work\Trial\LibraryMgt\LibraryMgt.Web\bin\Debug\netcoreapp2.1\LibraryMgt.Web.pdb
+D:\Work\Trial\LibraryMgt\LibraryMgt.Web\obj\Debug\netcoreapp2.1\LibraryMgt.Web.csproj.CoreCompileInputs.cache
+D:\Work\Trial\LibraryMgt\LibraryMgt.Web\obj\Debug\netcoreapp2.1\LibraryMgt.Web.RazorAssemblyInfo.cache
+D:\Work\Trial\LibraryMgt\LibraryMgt.Web\obj\Debug\netcoreapp2.1\LibraryMgt.Web.RazorAssemblyInfo.cs
+D:\Work\Trial\LibraryMgt\LibraryMgt.Web\obj\Debug\netcoreapp2.1\LibraryMgt.Web.AssemblyInfoInputs.cache
+D:\Work\Trial\LibraryMgt\LibraryMgt.Web\obj\Debug\netcoreapp2.1\LibraryMgt.Web.AssemblyInfo.cs
+D:\Work\Trial\LibraryMgt\LibraryMgt.Web\obj\Debug\netcoreapp2.1\LibraryMgt.Web.RazorTargetAssemblyInfo.cache
+D:\Work\Trial\LibraryMgt\LibraryMgt.Web\obj\Debug\netcoreapp2.1\LibraryMgt.Web.dll
+D:\Work\Trial\LibraryMgt\LibraryMgt.Web\obj\Debug\netcoreapp2.1\LibraryMgt.Web.pdb
+D:\Work\Trial\LibraryMgt\LibraryMgt.Web\obj\Debug\netcoreapp2.1\LibraryMgt.Web.csprojAssemblyReference.cache
+D:\Work\Trial\LibraryMgt\LibraryMgt.Web\bin\Debug\netcoreapp2.1\DataModels.dll
+D:\Work\Trial\LibraryMgt\LibraryMgt.Web\bin\Debug\netcoreapp2.1\DataModels.pdb
+D:\Work\Trial\LibraryMgt\LibraryMgt.Web\obj\Debug\netcoreapp2.1\LibraryMgt.Web.csproj.CopyComplete
+D:\Work\Trial\LibraryMgt\LibraryMgt.Web\bin\Debug\netcoreapp2.1\DataUtilities.dll
+D:\Work\Trial\LibraryMgt\LibraryMgt.Web\bin\Debug\netcoreapp2.1\DataUtilities.pdb
+D:\Work\Trial\LibraryMgt\LibraryMgt.Web\bin\Debug\netcoreapp2.1\DataFactory.dll
+D:\Work\Trial\LibraryMgt\LibraryMgt.Web\bin\Debug\netcoreapp2.1\DataFactory.pdb
+D:\Work\Trial\LibraryMgt - Ext\LibraryMgt.Web\bin\Debug\netcoreapp2.1\LibraryMgt.Web.deps.json
+D:\Work\Trial\LibraryMgt - Ext\LibraryMgt.Web\bin\Debug\netcoreapp2.1\LibraryMgt.Web.runtimeconfig.json
+D:\Work\Trial\LibraryMgt - Ext\LibraryMgt.Web\bin\Debug\netcoreapp2.1\LibraryMgt.Web.runtimeconfig.dev.json
+D:\Work\Trial\LibraryMgt - Ext\LibraryMgt.Web\bin\Debug\netcoreapp2.1\LibraryMgt.Web.dll
+D:\Work\Trial\LibraryMgt - Ext\LibraryMgt.Web\bin\Debug\netcoreapp2.1\LibraryMgt.Web.pdb
+D:\Work\Trial\LibraryMgt - Ext\LibraryMgt.Web\bin\Debug\netcoreapp2.1\DataFactory.dll
+D:\Work\Trial\LibraryMgt - Ext\LibraryMgt.Web\bin\Debug\netcoreapp2.1\DataModels.dll
+D:\Work\Trial\LibraryMgt - Ext\LibraryMgt.Web\bin\Debug\netcoreapp2.1\DataUtilities.dll
+D:\Work\Trial\LibraryMgt - Ext\LibraryMgt.Web\bin\Debug\netcoreapp2.1\DataFactory.pdb
+D:\Work\Trial\LibraryMgt - Ext\LibraryMgt.Web\bin\Debug\netcoreapp2.1\DataModels.pdb
+D:\Work\Trial\LibraryMgt - Ext\LibraryMgt.Web\bin\Debug\netcoreapp2.1\DataUtilities.pdb
+D:\Work\Trial\LibraryMgt - Ext\LibraryMgt.Web\obj\Debug\netcoreapp2.1\LibraryMgt.Web.csprojAssemblyReference.cache
+D:\Work\Trial\LibraryMgt - Ext\LibraryMgt.Web\obj\Debug\netcoreapp2.1\LibraryMgt.Web.csproj.CoreCompileInputs.cache
+D:\Work\Trial\LibraryMgt - Ext\LibraryMgt.Web\obj\Debug\netcoreapp2.1\LibraryMgt.Web.RazorAssemblyInfo.cache
+D:\Work\Trial\LibraryMgt - Ext\LibraryMgt.Web\obj\Debug\netcoreapp2.1\LibraryMgt.Web.RazorAssemblyInfo.cs
+D:\Work\Trial\LibraryMgt - Ext\LibraryMgt.Web\obj\Debug\netcoreapp2.1\LibraryMgt.Web.AssemblyInfoInputs.cache
+D:\Work\Trial\LibraryMgt - Ext\LibraryMgt.Web\obj\Debug\netcoreapp2.1\LibraryMgt.Web.AssemblyInfo.cs
+D:\Work\Trial\LibraryMgt - Ext\LibraryMgt.Web\obj\Debug\netcoreapp2.1\LibraryMgt.Web.RazorTargetAssemblyInfo.cache
+D:\Work\Trial\LibraryMgt - Ext\LibraryMgt.Web\obj\Debug\netcoreapp2.1\LibraryMgt.Web.csproj.CopyComplete
+D:\Work\Trial\LibraryMgt - Ext\LibraryMgt.Web\obj\Debug\netcoreapp2.1\LibraryMgt.Web.dll
+D:\Work\Trial\LibraryMgt - Ext\LibraryMgt.Web\obj\Debug\netcoreapp2.1\LibraryMgt.Web.pdb
+D:\Work\Trial\LibSys\LibraryMgt - Ext\LibraryMgt.Web\bin\Debug\netcoreapp2.1\LibraryMgt.Web.deps.json
+D:\Work\Trial\LibSys\LibraryMgt - Ext\LibraryMgt.Web\bin\Debug\netcoreapp2.1\LibraryMgt.Web.runtimeconfig.json
+D:\Work\Trial\LibSys\LibraryMgt - Ext\LibraryMgt.Web\bin\Debug\netcoreapp2.1\LibraryMgt.Web.runtimeconfig.dev.json
+D:\Work\Trial\LibSys\LibraryMgt - Ext\LibraryMgt.Web\bin\Debug\netcoreapp2.1\LibraryMgt.Web.dll
+D:\Work\Trial\LibSys\LibraryMgt - Ext\LibraryMgt.Web\bin\Debug\netcoreapp2.1\LibraryMgt.Web.pdb
+D:\Work\Trial\LibSys\LibraryMgt - Ext\LibraryMgt.Web\bin\Debug\netcoreapp2.1\DataFactory.dll
+D:\Work\Trial\LibSys\LibraryMgt - Ext\LibraryMgt.Web\bin\Debug\netcoreapp2.1\DataModels.dll
+D:\Work\Trial\LibSys\LibraryMgt - Ext\LibraryMgt.Web\bin\Debug\netcoreapp2.1\DataUtilities.dll
+D:\Work\Trial\LibSys\LibraryMgt - Ext\LibraryMgt.Web\bin\Debug\netcoreapp2.1\DataFactory.pdb
+D:\Work\Trial\LibSys\LibraryMgt - Ext\LibraryMgt.Web\bin\Debug\netcoreapp2.1\DataModels.pdb
+D:\Work\Trial\LibSys\LibraryMgt - Ext\LibraryMgt.Web\bin\Debug\netcoreapp2.1\DataUtilities.pdb
+D:\Work\Trial\LibSys\LibraryMgt - Ext\LibraryMgt.Web\obj\Debug\netcoreapp2.1\LibraryMgt.Web.csprojAssemblyReference.cache
+D:\Work\Trial\LibSys\LibraryMgt - Ext\LibraryMgt.Web\obj\Debug\netcoreapp2.1\LibraryMgt.Web.csproj.CoreCompileInputs.cache
+D:\Work\Trial\LibSys\LibraryMgt - Ext\LibraryMgt.Web\obj\Debug\netcoreapp2.1\LibraryMgt.Web.RazorAssemblyInfo.cache
+D:\Work\Trial\LibSys\LibraryMgt - Ext\LibraryMgt.Web\obj\Debug\netcoreapp2.1\LibraryMgt.Web.RazorAssemblyInfo.cs
+D:\Work\Trial\LibSys\LibraryMgt - Ext\LibraryMgt.Web\obj\Debug\netcoreapp2.1\LibraryMgt.Web.AssemblyInfoInputs.cache
+D:\Work\Trial\LibSys\LibraryMgt - Ext\LibraryMgt.Web\obj\Debug\netcoreapp2.1\LibraryMgt.Web.AssemblyInfo.cs
+D:\Work\Trial\LibSys\LibraryMgt - Ext\LibraryMgt.Web\obj\Debug\netcoreapp2.1\LibraryMgt.Web.RazorTargetAssemblyInfo.cache
+D:\Work\Trial\LibSys\LibraryMgt - Ext\LibraryMgt.Web\obj\Debug\netcoreapp2.1\LibraryMgt.Web.csproj.CopyComplete
+D:\Work\Trial\LibSys\LibraryMgt - Ext\LibraryMgt.Web\obj\Debug\netcoreapp2.1\LibraryMgt.Web.dll
+D:\Work\Trial\LibSys\LibraryMgt - Ext\LibraryMgt.Web\obj\Debug\netcoreapp2.1\LibraryMgt.Web.pdb
+E:\Trial\LibraryMgt - Ext\LibraryMgt.Web\bin\Debug\netcoreapp2.1\LibraryMgt.Web.deps.json
+E:\Trial\LibraryMgt - Ext\LibraryMgt.Web\bin\Debug\netcoreapp2.1\LibraryMgt.Web.runtimeconfig.json
+E:\Trial\LibraryMgt - Ext\LibraryMgt.Web\bin\Debug\netcoreapp2.1\LibraryMgt.Web.runtimeconfig.dev.json
+E:\Trial\LibraryMgt - Ext\LibraryMgt.Web\bin\Debug\netcoreapp2.1\LibraryMgt.Web.dll
+E:\Trial\LibraryMgt - Ext\LibraryMgt.Web\bin\Debug\netcoreapp2.1\LibraryMgt.Web.pdb
+E:\Trial\LibraryMgt - Ext\LibraryMgt.Web\bin\Debug\netcoreapp2.1\DataFactory.dll
+E:\Trial\LibraryMgt - Ext\LibraryMgt.Web\bin\Debug\netcoreapp2.1\DataModels.dll
+E:\Trial\LibraryMgt - Ext\LibraryMgt.Web\bin\Debug\netcoreapp2.1\DataUtilities.dll
+E:\Trial\LibraryMgt - Ext\LibraryMgt.Web\bin\Debug\netcoreapp2.1\DataFactory.pdb
+E:\Trial\LibraryMgt - Ext\LibraryMgt.Web\bin\Debug\netcoreapp2.1\DataModels.pdb
+E:\Trial\LibraryMgt - Ext\LibraryMgt.Web\bin\Debug\netcoreapp2.1\DataUtilities.pdb
+E:\Trial\LibraryMgt - Ext\LibraryMgt.Web\obj\Debug\netcoreapp2.1\LibraryMgt.Web.csprojResolveAssemblyReference.cache
+E:\Trial\LibraryMgt - Ext\LibraryMgt.Web\obj\Debug\netcoreapp2.1\LibraryMgt.Web.csproj.CoreCompileInputs.cache
+E:\Trial\LibraryMgt - Ext\LibraryMgt.Web\obj\Debug\netcoreapp2.1\LibraryMgt.Web.RazorAssemblyInfo.cache
+E:\Trial\LibraryMgt - Ext\LibraryMgt.Web\obj\Debug\netcoreapp2.1\LibraryMgt.Web.RazorAssemblyInfo.cs
+E:\Trial\LibraryMgt - Ext\LibraryMgt.Web\obj\Debug\netcoreapp2.1\LibraryMgt.Web.AssemblyInfoInputs.cache
+E:\Trial\LibraryMgt - Ext\LibraryMgt.Web\obj\Debug\netcoreapp2.1\LibraryMgt.Web.AssemblyInfo.cs
+E:\Trial\LibraryMgt - Ext\LibraryMgt.Web\obj\Debug\netcoreapp2.1\LibraryMgt.Web.RazorTargetAssemblyInfo.cache
+E:\Trial\LibraryMgt - Ext\LibraryMgt.Web\obj\Debug\netcoreapp2.1\LibraryMgt.Web.dll
+E:\Trial\LibraryMgt - Ext\LibraryMgt.Web\obj\Debug\netcoreapp2.1\LibraryMgt.Web.pdb
+E:\Trial\Source\LibraryMgt - Ext\LibraryMgt.Web\bin\Debug\netcoreapp2.1\LibraryMgt.Web.deps.json
+E:\Trial\Source\LibraryMgt - Ext\LibraryMgt.Web\bin\Debug\netcoreapp2.1\LibraryMgt.Web.runtimeconfig.json
+E:\Trial\Source\LibraryMgt - Ext\LibraryMgt.Web\bin\Debug\netcoreapp2.1\LibraryMgt.Web.runtimeconfig.dev.json
+E:\Trial\Source\LibraryMgt - Ext\LibraryMgt.Web\bin\Debug\netcoreapp2.1\LibraryMgt.Web.dll
+E:\Trial\Source\LibraryMgt - Ext\LibraryMgt.Web\bin\Debug\netcoreapp2.1\LibraryMgt.Web.pdb
+E:\Trial\Source\LibraryMgt - Ext\LibraryMgt.Web\bin\Debug\netcoreapp2.1\DataFactory.dll
+E:\Trial\Source\LibraryMgt - Ext\LibraryMgt.Web\bin\Debug\netcoreapp2.1\DataModels.dll
+E:\Trial\Source\LibraryMgt - Ext\LibraryMgt.Web\bin\Debug\netcoreapp2.1\DataUtilities.dll
+E:\Trial\Source\LibraryMgt - Ext\LibraryMgt.Web\bin\Debug\netcoreapp2.1\DataFactory.pdb
+E:\Trial\Source\LibraryMgt - Ext\LibraryMgt.Web\bin\Debug\netcoreapp2.1\DataModels.pdb
+E:\Trial\Source\LibraryMgt - Ext\LibraryMgt.Web\bin\Debug\netcoreapp2.1\DataUtilities.pdb
+E:\Trial\Source\LibraryMgt - Ext\LibraryMgt.Web\obj\Debug\netcoreapp2.1\LibraryMgt.Web.csprojResolveAssemblyReference.cache
+E:\Trial\Source\LibraryMgt - Ext\LibraryMgt.Web\obj\Debug\netcoreapp2.1\LibraryMgt.Web.csproj.CoreCompileInputs.cache
+E:\Trial\Source\LibraryMgt - Ext\LibraryMgt.Web\obj\Debug\netcoreapp2.1\LibraryMgt.Web.RazorAssemblyInfo.cache
+E:\Trial\Source\LibraryMgt - Ext\LibraryMgt.Web\obj\Debug\netcoreapp2.1\LibraryMgt.Web.RazorAssemblyInfo.cs
+E:\Trial\Source\LibraryMgt - Ext\LibraryMgt.Web\obj\Debug\netcoreapp2.1\LibraryMgt.Web.AssemblyInfoInputs.cache
+E:\Trial\Source\LibraryMgt - Ext\LibraryMgt.Web\obj\Debug\netcoreapp2.1\LibraryMgt.Web.AssemblyInfo.cs
+E:\Trial\Source\LibraryMgt - Ext\LibraryMgt.Web\obj\Debug\netcoreapp2.1\LibraryMgt.Web.RazorTargetAssemblyInfo.cache
+E:\Trial\Source\LibraryMgt - Ext\LibraryMgt.Web\obj\Debug\netcoreapp2.1\LibraryMgt.Web.dll
+E:\Trial\Source\LibraryMgt - Ext\LibraryMgt.Web\obj\Debug\netcoreapp2.1\LibraryMgt.Web.pdb
+D:\Work\Trial\LibSys\New\LibraryMgt - Ext\LibraryMgt - Ext\LibraryMgt.Web\bin\Debug\netcoreapp2.1\LibraryMgt.Web.deps.json
+D:\Work\Trial\LibSys\New\LibraryMgt - Ext\LibraryMgt - Ext\LibraryMgt.Web\bin\Debug\netcoreapp2.1\LibraryMgt.Web.runtimeconfig.json
+D:\Work\Trial\LibSys\New\LibraryMgt - Ext\LibraryMgt - Ext\LibraryMgt.Web\bin\Debug\netcoreapp2.1\LibraryMgt.Web.runtimeconfig.dev.json
+D:\Work\Trial\LibSys\New\LibraryMgt - Ext\LibraryMgt - Ext\LibraryMgt.Web\bin\Debug\netcoreapp2.1\LibraryMgt.Web.dll
+D:\Work\Trial\LibSys\New\LibraryMgt - Ext\LibraryMgt - Ext\LibraryMgt.Web\bin\Debug\netcoreapp2.1\LibraryMgt.Web.pdb
+D:\Work\Trial\LibSys\New\LibraryMgt - Ext\LibraryMgt - Ext\LibraryMgt.Web\bin\Debug\netcoreapp2.1\DataFactory.dll
+D:\Work\Trial\LibSys\New\LibraryMgt - Ext\LibraryMgt - Ext\LibraryMgt.Web\bin\Debug\netcoreapp2.1\DataModels.dll
+D:\Work\Trial\LibSys\New\LibraryMgt - Ext\LibraryMgt - Ext\LibraryMgt.Web\bin\Debug\netcoreapp2.1\DataUtilities.dll
+D:\Work\Trial\LibSys\New\LibraryMgt - Ext\LibraryMgt - Ext\LibraryMgt.Web\bin\Debug\netcoreapp2.1\DataFactory.pdb
+D:\Work\Trial\LibSys\New\LibraryMgt - Ext\LibraryMgt - Ext\LibraryMgt.Web\bin\Debug\netcoreapp2.1\DataModels.pdb
+D:\Work\Trial\LibSys\New\LibraryMgt - Ext\LibraryMgt - Ext\LibraryMgt.Web\bin\Debug\netcoreapp2.1\DataUtilities.pdb
+D:\Work\Trial\LibSys\New\LibraryMgt - Ext\LibraryMgt - Ext\LibraryMgt.Web\obj\Debug\netcoreapp2.1\LibraryMgt.Web.csprojAssemblyReference.cache
+D:\Work\Trial\LibSys\New\LibraryMgt - Ext\LibraryMgt - Ext\LibraryMgt.Web\obj\Debug\netcoreapp2.1\LibraryMgt.Web.csproj.CoreCompileInputs.cache
+D:\Work\Trial\LibSys\New\LibraryMgt - Ext\LibraryMgt - Ext\LibraryMgt.Web\obj\Debug\netcoreapp2.1\LibraryMgt.Web.RazorAssemblyInfo.cache
+D:\Work\Trial\LibSys\New\LibraryMgt - Ext\LibraryMgt - Ext\LibraryMgt.Web\obj\Debug\netcoreapp2.1\LibraryMgt.Web.RazorAssemblyInfo.cs
+D:\Work\Trial\LibSys\New\LibraryMgt - Ext\LibraryMgt - Ext\LibraryMgt.Web\obj\Debug\netcoreapp2.1\LibraryMgt.Web.AssemblyInfoInputs.cache
+D:\Work\Trial\LibSys\New\LibraryMgt - Ext\LibraryMgt - Ext\LibraryMgt.Web\obj\Debug\netcoreapp2.1\LibraryMgt.Web.AssemblyInfo.cs
+D:\Work\Trial\LibSys\New\LibraryMgt - Ext\LibraryMgt - Ext\LibraryMgt.Web\obj\Debug\netcoreapp2.1\LibraryMgt.Web.RazorTargetAssemblyInfo.cache
+D:\Work\Trial\LibSys\New\LibraryMgt - Ext\LibraryMgt - Ext\LibraryMgt.Web\obj\Debug\netcoreapp2.1\LibraryMgt.Web.csproj.CopyComplete
+D:\Work\Trial\LibSys\New\LibraryMgt - Ext\LibraryMgt - Ext\LibraryMgt.Web\obj\Debug\netcoreapp2.1\LibraryMgt.Web.dll
+D:\Work\Trial\LibSys\New\LibraryMgt - Ext\LibraryMgt - Ext\LibraryMgt.Web\obj\Debug\netcoreapp2.1\LibraryMgt.Web.pdb

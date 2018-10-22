@@ -1,0 +1,137 @@
+<!-- Breadcrumb-->
+<div class="row pt-2 pb-2">
+    <div class="col-sm-6">
+        <h4 class="page-title"><i class="fa fa-cube"></i> Library Books</h4>
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="JavaScript:Void(0);" [routerLink]="['/backoffice']">Dashboard</a></li>
+            <li class="breadcrumb-item">Book</li>
+            <li class="breadcrumb-item active" aria-current="page">Books</li>
+        </ol>
+    </div>
+    <div class="col-sm-6">
+        <div class="btn-group group-round m-1 float-right">
+            <button type="button" class="btn btn-outline-secondary btn-sm waves-effect waves-light m-1" (click)="addNew()">
+                <i class="fa fa-plus-circle">
+                </i> Add New Book
+            </button>
+        </div>
+    </div>
+</div>
+<!-- End Breadcrumb-->
+<div class="row">
+    <div class="col-lg-12">
+        <div class="card">
+            <div class="card-header">
+                <h5 class="float-left"><i class="fa fa-cube"></i> List Books</h5>
+            </div>
+            <div class="card-body p-0">
+                <!--<h5 class="card-title"><i class="fa fa-cube"></i> Categories</h5>-->
+                <div class="table-responsive" style="max-height:480px; overflow:auto;">
+                    <table class="table table-sm">
+                        <thead>
+                            <tr>
+                                <th scope="col">#</th>
+                                <th scope="col">Book Name</th>
+                                <th scope="col">Cover Image</th>
+                                <th scope="col">Author Name</th>
+                                <th scope="col">Category Name</th>
+                                <th class="text-right">Options</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr *ngFor="let item of books;let sl = index">
+                                <th scope="row">{{sl+1}}</th>
+                                <td>{{item.bookname}}</td>
+                                <td><img src="{{item.coverimage}}" class="product-img" alt="cover img"></td>
+                                <td>{{item.authorname}}</td>
+                                <td>{{item.categoryname}}</td>
+                                <td>
+                                    <div class="pull-right">
+                                        <a href="#" title="Edit Record" class="btn btn-outline-secondary btn-sm waves-effect waves-light m-1" (click)="edit($event, item)">
+                                            <i class="fa fa-edit"></i> Edit
+                                        </a>
+                                        <a href="#" title="Delete Record" class="btn btn-outline-secondary btn-sm waves-effect waves-light m-1" (click)="delete($event, item)">
+                                            <i class="fa fa-trash-o"></i> Delete
+                                        </a>
+                                    </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div><!-- End Row-->
+<!-- Modal -->
+<div class="modal fade" id="largesizemodal">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title"><i class="fa fa-plus-circle"></i> Add Book</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form id="bookForm" [formGroup]="bookForm" #f="ngForm" (ngSubmit)="onSubmit()">
+                    <!--<h4 class="form-header text-uppercase">
+                        <i class="fa fa-user-circle-o"></i>
+                        Personal Info
+                    </h4>-->
+                    <div class="form-row">
+                        <div class="form-group col-md-12">
+                            <div class="position-relative has-icon-left">
+                                <label for="bookName" class="sr-only">Book Name</label>
+                                <input type="text" id="bookName" name="bookName" formControlName="bookName" class="form-control" placeholder="Book Name" required
+                                       onfocus="this.placeholder=''" onblur="this.placeholder='Book Name'" autocomplete="off" tabindex="1" />
+                                <div class="form-control-position">
+                                    <i class="icon-info"></i><em class="text-danger">*</em>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <label for="authorid">Author</label><em class="text-danger">*</em>
+                            <select class="form-control" id="authorId" name="authorId" formControlName="authorId" required tabindex="2">
+                                <option value="">--Select Author--</option>
+                                <option *ngFor="let author of authors" value={{author.id}}>
+                                    {{author.authorname}}
+                                </option>
+                            </select>
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label for="category">Category</label><em class="text-danger">*</em>
+                            <select class="form-control" id="category" name="category" formControlName="category" required tabindex="3">
+                                <option value="">--Select Category--</option>
+                                <option *ngFor="let category of categories" value={{category.id}}>
+                                    {{category.categoryname}}
+                                </option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="fileup">Select File</label>
+                        <input type="file" id="fileupload" (change)="onFileChange($event)" #fileInput class="form-control">
+                        <!--<button type="button" class="btn btn-sm btn-default" (click)="clearFile()">clear file</button>-->
+                    </div>
+                    <div class="form-group">
+                        <label for="description">Description</label>
+                        <textarea class="form-control" rows="4" id="description" name="description" formControlName="description"></textarea>
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" (click)="reset()" tabindex="5">
+                    <i class="fa fa-refresh"></i> Reset
+                </button>
+                <button type="submit" class="btn btn-primary" form="bookForm" [disabled]="!f.valid" tabindex="4">
+                    <i class="fa fa-check-square-o"></i> Save changes
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+

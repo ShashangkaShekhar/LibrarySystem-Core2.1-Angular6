@@ -1,0 +1,92 @@
+﻿<div class="card-authentication2 mx-auto my-3">
+    <div class="card-group shadow-lg">
+        <div class="card mb-0">
+            <div class="bg-signup2"></div>
+            <div class="card-img-overlay rounded-left my-5">
+                <h1 class="text-white">Library</h1>
+                <h2 class="text-white">Management System</h2>
+                <p class="card-text text-white pt-3">
+                    This sample application is an example of how to implement theme with ASP.Net Core, Angular6.<br /><br />
+                    Developed by: Shashangka Shekhar<br />
+                    Website: www.shashangka.com
+                </p>
+                <div class="alert {{alertmessage}} alert-dismissible" role="alert" *ngIf="resmessage">
+                    <button type="button" class="close" data-dismiss="alert">&times;</button>
+                    <div class="alert-icon">
+                        <i class="icon-info"></i>
+                    </div>
+                    <div class="alert-message">
+                        <span><strong>Info!</strong> {{resmessage}}</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card mb-0">
+            <div class="card-body">
+                <div class="card-content p-3">
+                    <div class="card-title text-uppercase text-center pb-3">Sign Up</div>
+                    <form [formGroup]="userForm" #f="ngForm" (ngSubmit)="onSubmit()">
+                        <div class="form-group">
+                            <div class="position-relative has-icon-left">
+                                <label for="firstName" class="sr-only">First Name</label>
+                                <input type="text" id="firstName" name="firstName" formControlName="firstName" class="form-control" placeholder="First Name" required
+                                       onfocus="this.placeholder=''" onblur="this.placeholder='First Name'" autocomplete="off" />
+                                <div class="form-control-position">
+                                    <i class="icon-user"></i><em class="text-danger">*</em>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="position-relative has-icon-left">
+                                <label for="lastName" class="sr-only">Last Name</label>
+                                <input type="text" id="lastName" name="lastName" formControlName="lastName" class="form-control" placeholder="Last Name" required
+                                       onfocus="this.placeholder=''" onblur="this.placeholder='Last Name'" autocomplete="off" />
+                                <div class="form-control-position">
+                                    <i class="icon-user"></i><em class="text-danger">*</em>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="position-relative has-icon-left">
+                                <label for="email" class="sr-only">Email ID</label>
+                                <input type="text" formControlName="email" class="form-control" placeholder="Email ID" required
+                                       onfocus="this.placeholder=''" onblur="this.placeholder='Email ID'" autocomplete="off" />
+                                <div class="form-control-position">
+                                    <i class="icon-envelope-open"></i><em class="text-danger">*</em>
+                                </div>
+                                <span *ngIf="userForm.controls['email'].hasError('pattern')" class="text-danger">
+                                    Invalid Email
+                                </span>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="position-relative has-icon-left">
+                                <label for="contact" class="sr-only">Phone</label>
+                                <input type="text" formControlName="contact" class="form-control" placeholder="Phone" required
+                                       onfocus="this.placeholder=''" onblur="this.placeholder='Phone'" autocomplete="off" />
+                                <div class="form-control-position">
+                                    <i class="icon-lock"></i><em *ngIf="userForm.controls['contact'].hasError('required')" class="text-danger">*</em>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group mb-0">
+                            <div class="demo-checkbox">
+                                <input type="checkbox" id="user-checkbox" class="filled-in chk-col-primary" checked="" />
+                                <label for="user-checkbox">I Accept terms & conditions</label>
+                            </div>
+                        </div>
+                        <button type="submit" class="btn btn-primary shadow-primary btn-block waves-effect waves-light" [disabled]="!f.valid">Sign Up</button>
+                        <div class="text-center pt-3">
+                            <!--<p>or Sign up with</p>
+                            <a href="javascript:void()" class="btn-social-text btn-facebook waves-effect waves-light m-1"><i class="fa fa-facebook-square"></i> <span>facebook</span></a>
+                            <a href="javascript:void()" class="btn-social-text btn-google-plus waves-effect waves-light m-1"><i class="fa fa-google-plus"></i> <span>google+</span></a>
+                            <hr>-->
+                            <p class="text-muted">Already have an account? <a href="JavaScript:Void(0);" [routerLink]="['/login']"> Sign In here</a></p>
+                        </div>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

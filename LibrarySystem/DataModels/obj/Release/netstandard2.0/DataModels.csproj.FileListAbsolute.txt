@@ -1,0 +1,27 @@
+D:\Work\Trial\LibraryMgt\DataModels\bin\Release\netstandard2.0\DataModels.deps.json
+D:\Work\Trial\LibraryMgt\DataModels\bin\Release\netstandard2.0\DataModels.dll
+D:\Work\Trial\LibraryMgt\DataModels\bin\Release\netstandard2.0\DataModels.pdb
+D:\Work\Trial\LibraryMgt\DataModels\obj\Release\netstandard2.0\DataModels.csprojAssemblyReference.cache
+D:\Work\Trial\LibraryMgt\DataModels\obj\Release\netstandard2.0\DataModels.csproj.CoreCompileInputs.cache
+D:\Work\Trial\LibraryMgt\DataModels\obj\Release\netstandard2.0\DataModels.AssemblyInfoInputs.cache
+D:\Work\Trial\LibraryMgt\DataModels\obj\Release\netstandard2.0\DataModels.AssemblyInfo.cs
+D:\Work\Trial\LibraryMgt\DataModels\obj\Release\netstandard2.0\DataModels.dll
+D:\Work\Trial\LibraryMgt\DataModels\obj\Release\netstandard2.0\DataModels.pdb
+D:\Work\Trial\LibraryMgt - Ext\DataModels\bin\Release\netstandard2.0\DataModels.deps.json
+D:\Work\Trial\LibraryMgt - Ext\DataModels\bin\Release\netstandard2.0\DataModels.dll
+D:\Work\Trial\LibraryMgt - Ext\DataModels\bin\Release\netstandard2.0\DataModels.pdb
+D:\Work\Trial\LibraryMgt - Ext\DataModels\obj\Release\netstandard2.0\DataModels.csprojAssemblyReference.cache
+D:\Work\Trial\LibraryMgt - Ext\DataModels\obj\Release\netstandard2.0\DataModels.csproj.CoreCompileInputs.cache
+D:\Work\Trial\LibraryMgt - Ext\DataModels\obj\Release\netstandard2.0\DataModels.AssemblyInfoInputs.cache
+D:\Work\Trial\LibraryMgt - Ext\DataModels\obj\Release\netstandard2.0\DataModels.AssemblyInfo.cs
+D:\Work\Trial\LibraryMgt - Ext\DataModels\obj\Release\netstandard2.0\DataModels.dll
+D:\Work\Trial\LibraryMgt - Ext\DataModels\obj\Release\netstandard2.0\DataModels.pdb
+D:\Work\Trial\LibSys\LibraryMgt - Ext\DataModels\bin\Release\netstandard2.0\DataModels.deps.json
+D:\Work\Trial\LibSys\LibraryMgt - Ext\DataModels\bin\Release\netstandard2.0\DataModels.dll
+D:\Work\Trial\LibSys\LibraryMgt - Ext\DataModels\bin\Release\netstandard2.0\DataModels.pdb
+D:\Work\Trial\LibSys\LibraryMgt - Ext\DataModels\obj\Release\netstandard2.0\DataModels.csprojAssemblyReference.cache
+D:\Work\Trial\LibSys\LibraryMgt - Ext\DataModels\obj\Release\netstandard2.0\DataModels.csproj.CoreCompileInputs.cache
+D:\Work\Trial\LibSys\LibraryMgt - Ext\DataModels\obj\Release\netstandard2.0\DataModels.AssemblyInfoInputs.cache
+D:\Work\Trial\LibSys\LibraryMgt - Ext\DataModels\obj\Release\netstandard2.0\DataModels.AssemblyInfo.cs
+D:\Work\Trial\LibSys\LibraryMgt - Ext\DataModels\obj\Release\netstandard2.0\DataModels.dll
+D:\Work\Trial\LibSys\LibraryMgt - Ext\DataModels\obj\Release\netstandard2.0\DataModels.pdb

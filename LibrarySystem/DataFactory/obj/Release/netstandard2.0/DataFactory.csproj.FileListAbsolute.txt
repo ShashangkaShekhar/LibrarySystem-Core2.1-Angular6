@@ -1,0 +1,42 @@
+D:\Work\Trial\LibraryMgt\DataFactory\bin\Release\netstandard2.0\DataFactory.deps.json
+D:\Work\Trial\LibraryMgt\DataFactory\bin\Release\netstandard2.0\DataFactory.dll
+D:\Work\Trial\LibraryMgt\DataFactory\bin\Release\netstandard2.0\DataFactory.pdb
+D:\Work\Trial\LibraryMgt\DataFactory\bin\Release\netstandard2.0\DataModels.dll
+D:\Work\Trial\LibraryMgt\DataFactory\bin\Release\netstandard2.0\DataUtilities.dll
+D:\Work\Trial\LibraryMgt\DataFactory\bin\Release\netstandard2.0\DataModels.pdb
+D:\Work\Trial\LibraryMgt\DataFactory\bin\Release\netstandard2.0\DataUtilities.pdb
+D:\Work\Trial\LibraryMgt\DataFactory\obj\Release\netstandard2.0\DataFactory.csprojAssemblyReference.cache
+D:\Work\Trial\LibraryMgt\DataFactory\obj\Release\netstandard2.0\DataFactory.csproj.CoreCompileInputs.cache
+D:\Work\Trial\LibraryMgt\DataFactory\obj\Release\netstandard2.0\DataFactory.AssemblyInfoInputs.cache
+D:\Work\Trial\LibraryMgt\DataFactory\obj\Release\netstandard2.0\DataFactory.AssemblyInfo.cs
+D:\Work\Trial\LibraryMgt\DataFactory\obj\Release\netstandard2.0\DataFactory.csproj.CopyComplete
+D:\Work\Trial\LibraryMgt\DataFactory\obj\Release\netstandard2.0\DataFactory.dll
+D:\Work\Trial\LibraryMgt\DataFactory\obj\Release\netstandard2.0\DataFactory.pdb
+D:\Work\Trial\LibraryMgt - Ext\DataFactory\bin\Release\netstandard2.0\DataFactory.deps.json
+D:\Work\Trial\LibraryMgt - Ext\DataFactory\bin\Release\netstandard2.0\DataFactory.dll
+D:\Work\Trial\LibraryMgt - Ext\DataFactory\bin\Release\netstandard2.0\DataFactory.pdb
+D:\Work\Trial\LibraryMgt - Ext\DataFactory\bin\Release\netstandard2.0\DataModels.dll
+D:\Work\Trial\LibraryMgt - Ext\DataFactory\bin\Release\netstandard2.0\DataUtilities.dll
+D:\Work\Trial\LibraryMgt - Ext\DataFactory\bin\Release\netstandard2.0\DataModels.pdb
+D:\Work\Trial\LibraryMgt - Ext\DataFactory\bin\Release\netstandard2.0\DataUtilities.pdb
+D:\Work\Trial\LibraryMgt - Ext\DataFactory\obj\Release\netstandard2.0\DataFactory.csprojAssemblyReference.cache
+D:\Work\Trial\LibraryMgt - Ext\DataFactory\obj\Release\netstandard2.0\DataFactory.csproj.CoreCompileInputs.cache
+D:\Work\Trial\LibraryMgt - Ext\DataFactory\obj\Release\netstandard2.0\DataFactory.AssemblyInfoInputs.cache
+D:\Work\Trial\LibraryMgt - Ext\DataFactory\obj\Release\netstandard2.0\DataFactory.AssemblyInfo.cs
+D:\Work\Trial\LibraryMgt - Ext\DataFactory\obj\Release\netstandard2.0\DataFactory.csproj.CopyComplete
+D:\Work\Trial\LibraryMgt - Ext\DataFactory\obj\Release\netstandard2.0\DataFactory.dll
+D:\Work\Trial\LibraryMgt - Ext\DataFactory\obj\Release\netstandard2.0\DataFactory.pdb
+D:\Work\Trial\LibSys\LibraryMgt - Ext\DataFactory\bin\Release\netstandard2.0\DataFactory.deps.json
+D:\Work\Trial\LibSys\LibraryMgt - Ext\DataFactory\bin\Release\netstandard2.0\DataFactory.dll
+D:\Work\Trial\LibSys\LibraryMgt - Ext\DataFactory\bin\Release\netstandard2.0\DataFactory.pdb
+D:\Work\Trial\LibSys\LibraryMgt - Ext\DataFactory\bin\Release\netstandard2.0\DataModels.dll
+D:\Work\Trial\LibSys\LibraryMgt - Ext\DataFactory\bin\Release\netstandard2.0\DataUtilities.dll
+D:\Work\Trial\LibSys\LibraryMgt - Ext\DataFactory\bin\Release\netstandard2.0\DataModels.pdb
+D:\Work\Trial\LibSys\LibraryMgt - Ext\DataFactory\bin\Release\netstandard2.0\DataUtilities.pdb
+D:\Work\Trial\LibSys\LibraryMgt - Ext\DataFactory\obj\Release\netstandard2.0\DataFactory.csprojAssemblyReference.cache
+D:\Work\Trial\LibSys\LibraryMgt - Ext\DataFactory\obj\Release\netstandard2.0\DataFactory.csproj.CoreCompileInputs.cache
+D:\Work\Trial\LibSys\LibraryMgt - Ext\DataFactory\obj\Release\netstandard2.0\DataFactory.AssemblyInfoInputs.cache
+D:\Work\Trial\LibSys\LibraryMgt - Ext\DataFactory\obj\Release\netstandard2.0\DataFactory.AssemblyInfo.cs
+D:\Work\Trial\LibSys\LibraryMgt - Ext\DataFactory\obj\Release\netstandard2.0\DataFactory.csproj.CopyComplete
+D:\Work\Trial\LibSys\LibraryMgt - Ext\DataFactory\obj\Release\netstandard2.0\DataFactory.dll
+D:\Work\Trial\LibSys\LibraryMgt - Ext\DataFactory\obj\Release\netstandard2.0\DataFactory.pdb

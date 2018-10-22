@@ -1,0 +1,71 @@
+<div class="card-authentication2 mx-auto my-5">
+    <div class="card-group shadow-lg">
+        <div class="card mb-0">
+            <div class="bg-signin2"></div>
+            <div class="card-img-overlay rounded-left my-5">
+                <h1 class="text-white">Library</h1>
+                <h2 class="text-white">Management System</h2>
+                <p class="card-text text-white pt-3">
+                    This sample application is an example of how to implement theme with ASP.Net Core, Angular6.<br /><br />
+                    Developed by: Shashangka Shekhar<br />
+                    Website: www.shashangka.com
+                </p>
+                <p class="card-text text-white pt-3">
+
+            </div>
+        </div>
+        <div class="card mb-0">
+            <div class="card-body">
+                <div class="card-content p-3">
+                    <div class="card-title text-uppercase text-center pb-3">Sign In</div>
+                    <form [formGroup]="userForm" #f="ngForm" (ngSubmit)="onSubmit()">
+                        <div class="form-group">
+                            <div class="position-relative has-icon-left">
+                                <label for="userName" class="sr-only">Username</label>
+                                <input type="text" class="form-control" id="userName" name="userName" formControlName="userName" placeholder="User Name" required
+                                       onfocus="this.placeholder=''" onblur="this.placeholder='User Name'" autocomplete="off" />
+                                <div class="form-control-position">
+                                    <i class="icon-user"></i><em class="text-danger">*</em>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="position-relative has-icon-left">
+                                <label for="userPass" class="sr-only">Password</label>
+                                <input type="password" formControlName="userPass" class="form-control" placeholder="Password" required
+                                       onfocus="this.placeholder=''" onblur="this.placeholder='Password'" autocomplete="off" />
+                                <div class="form-control-position">
+                                    <i class="icon-lock"></i><em class="text-danger">*</em>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-row mr-0 ml-0">
+                            <div class="form-group col-6">
+                                <div class="demo-checkbox">
+                                    <input type="checkbox" id="user-checkbox" class="filled-in chk-col-primary" checked="" />
+                                    <label for="user-checkbox">Remember me</label>
+                                </div>
+                            </div>
+                            <div class="form-group col-6 text-right">
+                                <a href="javascript:void()">Reset Password</a>
+                            </div>
+                        </div>
+                        <button type="submit" class="btn btn-primary shadow-primary btn-block waves-effect waves-light" [disabled]="!f.valid">Sign In</button>
+                        <div class="text-center pt-3">
+                            <p class="text-muted">Do not have an account? <a href="JavaScript:Void(0);" [routerLink]="['/register']"> Sign Up here</a></p>
+                        </div>
+                    </form>
+                </div>
+                <div class="alert {{alertmessage}} alert-dismissible" role="alert" *ngIf="resmessage">
+                    <button type="button" class="close" data-dismiss="alert">&times;</button>
+                    <div class="alert-icon">
+                        <i class="icon-info"></i>
+                    </div>
+                    <div class="alert-message">
+                        <span><strong>Info!</strong> {{resmessage}}</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
