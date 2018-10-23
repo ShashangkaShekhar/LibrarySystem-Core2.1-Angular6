@@ -9,4 +9,4 @@ The sample application is a small library management system including:
 <br>6. Reporting
 
 <h2>Screen:</h2>
-<img class="alignnone size-large wp-image-4470" src="http://shashangka.com/wp-content/uploads/2018/10/dash-1024x555.png" alt="" width="1024" height="555" sizes="(max-width: 1024px) 100vw, 1024px">
+<img class="alignnone size-large wp-image-4470" src="http://shashangka.com/wp-content/uploads/2018/10/dash-1024x555.png" alt="" sizes="(max-width: 1024px) 100vw, 1024px">
